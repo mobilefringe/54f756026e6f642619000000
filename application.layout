@@ -51,7 +51,7 @@
 <script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
 <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
 <!--MallMaverick v=0.3-->
-<script src="//mallmaverick.codecloudapp.com/mallmaverick.js?v=0.3"></script>
+<script src="//mallmaverick.codecloudapp.com/mallmaverick_v3.js"></script>
 <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
 
 <script src="//cdn.jsdelivr.net/jquery.zoomooz/1.1.6/jquery.zoomooz.min.js"></script>
@@ -97,7 +97,7 @@
             imagePath: '//cdn.jsdelivr.net/jquery.jreject/1.0.2/images/'
         });      
     });
-    setEndPoint('//westmount.mallmaverick.com/api/v2/westmount/all.json');
+    setEndPoint('//westmount.mallmaverick.com/api/v3/westmount/all.json');
     sessionStorage.setItem('primary_locale', 'en-CA');
     sessionStorage.setItem('secondary_locale', 'fr-CA');
 </script>
