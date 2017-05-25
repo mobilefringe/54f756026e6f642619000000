@@ -293,7 +293,7 @@
                     </ul>
                </div>
           </div>
-          <div id="social_media_wrapper"> <a href="https://www.facebook.com/WestmountShoppingCentre" target="_blank"><i class="fa fa-facebook"></i><p style="display:none">facebook</p></a> </div>
+          <div id="social_media_wrapper"> <a href="https://www.facebook.com/WestmountShoppingCentre" target="_blank"><i class="fa fa-facebook"></i><p style="display:none">facebook</p></a> <a href="https://www.instagram.com/westmountsc/" target="_blank"><i class="fa fa-instagram"></i><p style="display:none">instagram</p></a></div>
           <a href="//bentallkennedy.com/" target="_blank"><img class="property_logo" alt="logo" src="//codecloud.cdn.speedyrails.net/sites/57f7a0166e6f647835010000/image/png/undefined/bental-logo2.png"/></a>
      </div>
 </header>
