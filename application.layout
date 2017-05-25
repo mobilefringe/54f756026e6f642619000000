@@ -166,6 +166,7 @@
     /*social media box color*/
     #social_media_wrapper{
         background:#5b6e7e;
+        right:215px;
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
