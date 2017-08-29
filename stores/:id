@@ -308,7 +308,7 @@ background-color: #FFFFFF ;
                             break;
                     }
                 
-                    if ((val.store_front_url).indexOf('missing.png') > -1){ 
+                    if (val.store_front_url == null){ 
                         val.alt_store_front_url = "//kodekloud.s3.amazonaws.com/sites/54f756026e6f642619000000/ce9fa06af59f3d7711de057d95843a5a/westmount.png" 
                     } else { 
                         val.alt_store_front_url = getImageURL(val.store_front_url); 
