@@ -112,7 +112,6 @@
                     if((val.promo_image_url_abs).indexOf('missing.png') > -1){
                         var store_front = getImageURL(store_details.store_front_url);
                         val.alt_promo_image_url = store_front;
-                
                         if(store_front == null) {
                             val.alt_promo_image_url = "//kodekloud.s3.amazonaws.com/sites/54f756026e6f642619000000/ce9fa06af59f3d7711de057d95843a5a/westmount.png"
                         }
