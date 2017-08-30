@@ -122,7 +122,7 @@
                         val.store_detail_btn = store_details.slug 
                         val.store_name = store_details.name
                     }
-                   val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
+                    val.alt_promo_image_url = getCloudinaryImageUrl(val.promo_image_url);
                 }
                 var start = moment(val.start_date).tz(getPropertyTimeZone());
                 var end = moment(val.end_date).tz(getPropertyTimeZone());
