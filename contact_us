@@ -21,7 +21,7 @@
                         <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                           
                  
-                    <br>General Manager
+                     <p class="directory_content"><strong>General Manager</strong>
                     <br>519 641 0976 ext. 222
                 </p>
                     <br>
@@ -115,7 +115,7 @@
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
                          
                  
-                    <br>General Manager
+                     <p class="directory_content"><strong>General Manager</strong>
                     <br>519 641 0976 ext. 222
                 </p>
                     <br>
