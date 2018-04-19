@@ -204,7 +204,7 @@
             font-size: 13px;
             color: #ccc;
         }
-        .copyright {
+        .copyright, .copyright a {
             color: #FFF;
         }
         @media (max-width: 767px) {
