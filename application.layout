@@ -204,6 +204,9 @@
             font-size: 13px;
             color: #ccc;
         }
+        #footer_teasers_wrapper .footer_teaser a:hover {
+            color: #ccc !important;
+        }
         .copyright, .copyright a {
             color: #FFF;
         }
