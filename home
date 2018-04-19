@@ -112,7 +112,6 @@
     $(document).ready(function() {
         function renderPopup(){
             var popup = getPopups()[0];
-            console.log(popup)
             if(popup != undefined){
                 if($.cookie("popup_viewed") != "true"){
                     $.cookie("popup_viewed", "true", { expires: 1 });
@@ -208,7 +207,11 @@
                 controlNav: true,
                 directionNav: true,        
                 prevText: "",
-                nextText: ""
+                nextText: "",
+                
+            });
+            $('.flexslider').flexslider( function() {
+                $(".flex-next").html("<p style='display: none'>Next Slide</p>").    
             });
         }
         
