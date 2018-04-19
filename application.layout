@@ -219,7 +219,7 @@
                         <a class="navbar-brand" href="/home" id="site_logo">
                             <script id="logo_template" type="x-tmpl-mustache/text">
                                 {% raw %}
-                                <img src="{{site_logo}}">
+                                <img src="{{site_logo}}" alt="Westmount Shopping Centre Logo">
                                 <p style="display:none">Westmount Shopping Centre Logo</p>
                                 {% endraw %}
                             </script>
