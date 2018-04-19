@@ -210,9 +210,9 @@
                 nextText: "",
                 
             });
-            $('.flexslider').flexslider( function() {
+            // $('.flexslider').flexslider( function() {
                 $(".flex-next").html("<p style='display: none'>Next Slide</p>")    
-            });
+            // });
         }
         
         function renderFeatureItems(feature_template,feature_items,featureList){
