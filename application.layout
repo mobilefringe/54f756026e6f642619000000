@@ -276,7 +276,7 @@
                              </li>
                              <li id="contact_link" class="dropdown">
                                 <a data-toggle="dropdown" class="dropdown-toggle">contact us <span class="caret"></span></a>
-                                 <ul class="dropdown-menu">
+                                <ul class="dropdown-menu">
                                     <li><a href="/contact_us">Contact Us</a></li>
                                     <li><a href="/find_us">Find Us</a></li>
                                     <li><a href="/about_us">About Us</a></li>
@@ -299,7 +299,7 @@
                     </a>
                 </div>
                 <a href="//mccor.ca/" target="_blank">
-                    <img class="property_logo" alt="logo" src="//codecloud.cdn.speedyrails.net/sites/5ad8d5956e6f64676c390000/image/png/1516982336000/McCOR Logo-03.png"/>
+                    <img class="property_logo" src="//codecloud.cdn.speedyrails.net/sites/5ad8d5956e6f64676c390000/image/png/1516982336000/McCOR Logo-03.png" alt="McCor Management Logo"/>
                 </a>
             </div>
         </header>
