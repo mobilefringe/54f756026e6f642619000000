@@ -32,7 +32,9 @@
 					        <input id="PCODE" name="cm-f-tdtlht" placeholder="" class="custom_field_control" required="required" type="text" value="">
                         </label>
                         <fieldset>
-                            <label for="FMALEMALE" class="main_label radio_main"><span class="">Female/Male</span>
+                            <label for="FMALEMALE" class="main_label radio_main">
+                                <legend>Female/Male</legend>
+                                <span class=""></span>
                                 <label for="FMALEMALE-1" class="radio_inside" required="required">
                                     <input type="radio" name="cm-f-tdtlhi" id="FMALEMALE-1" checked="checked" value="Female">
                                     <span class="">Female</span>
