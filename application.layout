@@ -204,6 +204,9 @@
             font-size: 13px;
             color: #ccc;
         }
+        .copyright {
+            color: #FFF;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
