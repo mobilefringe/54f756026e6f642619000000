@@ -211,7 +211,7 @@
                 
             });
             $('.flexslider').flexslider( function() {
-                $(".flex-next").html("<p style='display: none'>Next Slide</p>").    
+                $(".flex-next").html("<p style='display: none'>Next Slide</p>")    
             });
         }
         
