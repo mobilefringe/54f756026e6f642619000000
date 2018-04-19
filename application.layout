@@ -200,6 +200,10 @@
         .site-map-section a:hover {
             color:#b5c8d8 !important;
         }
+        #footer_teasers_wrapper .footer_teaser a {
+            font-size: 13px;
+            color: #ccc;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
