@@ -215,6 +215,10 @@
             color: #FFF !important;
             text-decoration: underline;
         }
+        .breadcrumb > .active {
+            color: inherit;
+            font-weight: bold;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
