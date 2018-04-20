@@ -32,7 +32,7 @@
                         <a href="tel:{{phone}}">
                             <p class="directory_content directory_phone_col">{{phone}}</p>
                         </a>
-                        {{#phone}}
+                        {{/phone}}
                     </script>
                 </div>
             </div>
