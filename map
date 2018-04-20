@@ -87,18 +87,11 @@
             <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
         </div>
         <div id="map" class="panzoom-elements" style="">
-            <img src="" alt="Westmount Shopping Centre Map">
-        </div>
-    
-    <div id="zoom_container">
-        <img id="png_map" class="png_map" alt="center map" src="" width="2240" height="943"/>
-    
-        <div class="landmarks" data-show-at-zoom="100" data-allow-drag="true">
             
-	    </div>    
-    </div>
+        </div>
+        
     
-</div>
+    </div>
 </div>
 
 
