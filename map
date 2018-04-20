@@ -86,24 +86,15 @@
             <button class="zoom-in"><span class="glyphicon glyphicon-plus"></span></button>
             <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
         </div>
-        <div id="map" class="panzoom-elements" style="">
-            
-        </div>
-        
-    
+        <div id="map" class="panzoom-elements" style=""></div>
     </div>
 </div>
-
-
-<!--For more information please see //learnjs.io/blog/2013/11/30/snapsvg-resources/-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
 <script src="//kodekloud.s3.amazonaws.com/sites/5422419e4a616d74d9030000/e1fb5e17ab727d248230fbcb51da868f/jquery.panzoom.min.js"></script>
-<!--<script src="//cdn.jsdelivr.net/jquery.transform/0.1/jquery.transform2d.js"></script>-->
 <script>
     $(document).ready(function() {
         function renderAll (){
             var stores = getStoresList();
-            // renderPageData('#landmark_container','#landmark_template',stores)
             $("#loading_screen").hide();
             $("#main_content").show();
             // specify the type of map here. "png" or "svg"
@@ -203,13 +194,9 @@
                         });
                         $(".panzoom-elements").panzoom("pan", startingPanX, startingPanY, { relative: true });
                         
-                        panzoom.on('panzoomchange', function(e, panzoom, matrix, changed) {
-                          didPanZoom = true;
-                        });
+                        panzoom.on('panzoomchange', function(e, panzoom, matrix, changed) { didPanZoom = true });
                         
-                        panzoom.on('panzoomend', function(e, panzoom, matrix, changed) {
-                          didPanZoom = false;
-                        });
+                        panzoom.on('panzoomend', function(e, panzoom, matrix, changed) { didPanZoom = false });
                     });
                 } else {
                     var propertyDetails = getPropertyDetails();
