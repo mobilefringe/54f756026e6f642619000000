@@ -216,7 +216,7 @@
             text-decoration: underline;
         }
         .breadcrumb > .active {
-            color: inherit;
+            color: #6b6966;
             font-weight: bold;
         }
         @media (max-width: 767px) {
