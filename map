@@ -79,6 +79,7 @@
         <h3>Centre Map</h3>
     </div>
     <div style="overflow:hidden;height:400px;margin:5px">
+        <label for="storelist_container" class="hidden_now">Select a Store</label>
         <select id="storelist_container" class="pull-left storelist_dd">
             <option disabled selected>Select a Store</option>
         </select>
