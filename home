@@ -94,18 +94,17 @@
                         <div class="portfolio_description">
                             <h3 class="feature_title">{{name}}</h3>
                         </div>
-                        <a href="{{url}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-                            <div class="portfolio_item"> 
-                            
+                        <div class="portfolio_item"> 
+                            <a href="{{url}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
                                 <figure>
                                     <img class="feature_image" src="{{image_url}}" alt="Click here for more info on {{name}}" />
                                     <figcaption>
                                         <div class="view_button">View</div>
                                     </figcaption>
                                 </figure>
-                            
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        
                     </div>
                 </script>
             </div>
