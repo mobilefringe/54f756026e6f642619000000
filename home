@@ -71,7 +71,7 @@
                     {{#url}}
                     <a href="{{url}}" {{css}} onclick="{{noLink}}">
                     {{/url}}
-                        <img src="{{image_url}}" alt="Click here: {{name}}"/>
+                        <img src="{{image_url}}" alt="{{name}}"/>
                     </a>
                 </li>
             </script>
