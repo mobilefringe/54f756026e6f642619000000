@@ -186,7 +186,7 @@
         #description_section{
             background: #8b97a7;
         }
-        #description_section h3 {
+        #description_section h3, p {
             color: #000;
         }
         .section_header{}
