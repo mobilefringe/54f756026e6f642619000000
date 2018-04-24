@@ -222,6 +222,10 @@
             color: #6b6966;
             font-weight: bold;
         }
+        .flex-control-nav {
+            padding: 5px 0;
+            background: #FFF;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
