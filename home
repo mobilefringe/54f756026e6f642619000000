@@ -68,10 +68,12 @@
         <ul class="slides" id="home_banner">
             <script id="banner_template" type="x-tmpl-mustache/text">
                 <li class="item">
+                    {{#url}}
                     <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                    {{/url}}
                         <img src="{{image_url}}" alt="Click here: {{name}}"/>
                     </a>
-               </li>
+                </li>
             </script>
         </ul>
     </div>
