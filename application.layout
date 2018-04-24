@@ -184,7 +184,7 @@
             height: auto;
         }
         #description_section{
-            background: #7d8896;
+            background: #8b97a7;
         }
         .section_header{}
         .promo_header{
