@@ -275,10 +275,10 @@
                             </li>
                         </ul>
                     </nav>
-                    <nav class="collapse navbar-collapse">              
+                    <nav class="collapse navbar-collapse" aria-label="Main Navigation">              
                         <ul class="nav pull-right navbar-nav">
                             <li id="directory_link" class="dropdown">
-                                <a data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
                                     Store Directory <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
