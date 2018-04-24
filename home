@@ -82,7 +82,7 @@
     <script id="description_template" type="x-tmpl-mustache/text">
         </br>
         <h3 class="site_welcome_msg">{{welcome_message}}</h3>
-        <h4 class="site_description">{{description}}</h4>
+        <p class="site_description">{{description}}</p>
     </script>
 </section>
 <div class="main">
