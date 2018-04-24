@@ -186,6 +186,9 @@
         #description_section{
             background: #8b97a7;
         }
+        #description_section h3 {
+            color: #000;
+        }
         .section_header{}
         .promo_header{
             border-bottom:solid 1px #cccccc;
