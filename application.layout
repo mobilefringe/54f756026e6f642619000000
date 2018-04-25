@@ -226,6 +226,9 @@
             padding: 5px 0;
             background: #FFF;
         }
+        .flex-control-paging li a {
+            background: #cacaca;
+        }
         @media (max-width: 767px) {
             .main_window{
                 width:100%;
