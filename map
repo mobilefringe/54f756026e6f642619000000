@@ -67,16 +67,16 @@
 <div id="loading_screen">
     <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
 </div>
-<div  id="main_content" style="display:none">
+<div id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-            <li><a href="/home">Home</a> </li>
+            <li><a href="/home">Home</a></li>
             <li><a href="/stores">Store Directory</a></li>
             <li class="active">Centre Map</li>
         </ul>
     </nav>
     <div class="page_banner">
-        <h3>Centre Map</h3>
+        <h2>Centre Map</h2>
     </div>
     <div style="overflow:hidden;height:400px;margin:5px">
         <label for="storelist_container" class="hidden_now">Select a Store</label>
@@ -105,9 +105,7 @@
         
         function renderStoreList(stores){
             for(var i = 0; i < stores.length;i++){
-                // stores[i].x_coordinate = stores[i].x_coordinate - 10;
-                // stores[i].y_coordinate = stores[i].y_coordinate - 35;
-               $("#storelist_container").append('<option value="'+stores[i].x_coordinate+','+stores[i].y_coordinate+','+stores[i].id+'">'+stores[i].name+'</option>') 
+               $("#storelist_container").append('<option value="' + stores[i].x_coordinate + ',' + stores[i].y_coordinate + ',' + stores[i].id + '">' + stores[i].name + '</option>');
             }
         }
         
@@ -129,14 +127,14 @@
                 $(container).show(); 
             }
             $(container).html(item_rendered.join(''));
-        };
+        }
         
         function renderMap(maptype){
             var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) );
             var didPanZoom = false;
             if(navigator.appVersion.indexOf("MSIE 9.") == -1){
                 $('#map').bind('mousemove', function(e){
-                   $('#pop-over').css({'top':e.pageY+20,'left':e.pageX-70});
+                    $('#pop-over').css({'top':e.pageY+20,'left':e.pageX-70});
                 });
                 var s = Snap("#map");
                 var stores = getStoresList();
