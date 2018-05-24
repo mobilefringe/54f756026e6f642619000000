@@ -192,7 +192,7 @@
         
         function renderpageHTML(){
             var prefix = get_prefix();
-            var pages_json = prefix + "/pages/alpinecentre-contact-us.json"
+            var pages_json = prefix + "/pages/westmount-contact-us.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_content').html(data.body);
                 $('#mm_page_content_mobile').html(data.body);
