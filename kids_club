@@ -17,7 +17,8 @@
                 <img src= "//kodekloud.s3.amazonaws.com/sites/54f756026e6f642619000000/11c6edce71b99451e7e687ced06be21f/kids-club.gif" alt="">
             </center> 
             <br>
-            <p>Upcoming Kids Club Dates: January 17, February 14, March 14, April 4, May 9, June 20, every Wednesday in July and August, September 26, October 31, November 14 and December 5. Please note that dates are subject to change. Please check the events page for more information or sign up below to receive our newsletter.</p>
+            <div id="mm_page_content"></div>
+            <!--<p>Upcoming Kids Club Dates: January 17, February 14, March 14, April 4, May 9, June 20, every Wednesday in July and August, September 26, October 31, November 14 and December 5. Please note that dates are subject to change. Please check the events page for more information or sign up below to receive our newsletter.</p>-->
         </div>
         <div class="right_column">
             <p class="right_column_header">centre information</p>
