@@ -36,7 +36,8 @@
     $(document).ready(function() {
         function renderAll (){
             var propertyDetails = getPropertyDetails();
-            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details');
+            renderpageHTML();
             $("#loading_screen").hide();
             $("#main_content").show();
         }
