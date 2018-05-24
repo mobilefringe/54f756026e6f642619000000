@@ -11,8 +11,8 @@
     </div>
     <div class="inside_page_content">
         <div class="left_column">
-            <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54f756026e6f642619000000/11c6edce71b99451e7e687ced06be21f/Banner-Image-007_edited.jpg"/>
-             <div class="show_mobile">
+            <img class="inside_banner_image" alt="" src="//kodekloud.s3.amazonaws.com/sites/54f756026e6f642619000000/11c6edce71b99451e7e687ced06be21f/Banner-Image-007_edited.jpg"/>
+            <div class="show_mobile">
                 <p class="right_column_header">centre information</p>
                 <div id="centre_info_container_mobile">
                     <script id="centre_info_template_mobile" type="x-tmpl-mustache/text">
@@ -22,33 +22,6 @@
                     </script>
                 </div>
                 <div id="mm_page_content_mobile"></div>
-                <!--    <br> <p class="directory_content"><strong>Linda Hachey</strong>-->
-                <!--    <br>General Manager-->
-                <!--    <br>519 641 0976 ext. 222-->
-                <!--</p>-->
-                <!--    <br>-->
-                  
-                  
-                <!--   <p class="directory_content"><strong>Warren Paulger</strong> -->
-                <!--   <br>Building Operator-->
-                <!--   <br>519 641 0976 ext. 229-->
-                <!--   <br><a href="mailto:wpaulger@mccor.ca" target="_blank">wpaulger@mccor.ca</a></p>-->
-                <!--   <br>-->
-                <!--   <p class="directory_content"><strong>Rhonda Hanley</strong> -->
-                <!--   <br>Marketing Director-->
-                <!--   <br>519 641 0976 ext. 224-->
-                <!--   <br><a href="mailto:rhanley@mccor.ca" target="_blank">rhanley@mccor.ca</a></p>-->
-                <!--    <br>-->
-                <!--   <p class="directory_content"><strong>April Herlick</strong> -->
-                <!--   <br>Retail Accounts Coordinator-->
-                <!--   <br>519 641 0976 ext. 232-->
-                <!--   <br> <a href="mailto:aherlick@mccor.ca" target="_blank">aherlick@mccor.ca</a></p>-->
-                <!--    <br>-->
-                  
-                   
-                <!--   <p class="directory_content"> -->
-                <!--  <strong> Security </strong>-->
-                <!--   <br>519 641 0976 ext. 223</p>-->
             </div>
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
                 <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
@@ -113,33 +86,6 @@
             </div>
             <br> 
             <div id="mm_page_content"></div>
-                <!--//     <p class="directory_content"><strong>Linda Hachey</strong>-->
-                <!--//     <br>General Manager-->
-                <!--//     <br>519 641 0976 ext. 222-->
-                <!--// </p>-->
-                <!--//     <br>-->
-                  
-                  
-                <!--//   <p class="directory_content"><strong>Warren Paulger</strong> -->
-                <!--//   <br>Building Operator-->
-                <!--//   <br>519 641 0976 ext. 229-->
-                <!--//   <br><a href="mailto:wpaulger@mccor.ca" target="_blank">wpaulger@mccor.ca</a></p>-->
-                <!--//   <br>-->
-                <!--//   <p class="directory_content"><strong>Rhonda Hanley</strong> -->
-                <!--//   <br>Marketing Director-->
-                <!--//   <br>519 641 0976 ext. 224-->
-                <!--//   <br><a href="mailto:rhanley@mccor.ca" target="_blank">rhanley@mccor.ca</a></p>-->
-                <!--//     <br>-->
-                <!--//   <p class="directory_content"><strong>April Herlick</strong> -->
-                <!--//   <br>Retail Accounts Coordinator-->
-                <!--//   <br>519 641 0976 ext. 232-->
-                <!--//   <br> <a href="mailto:aherlick@mccor.ca" target="_blank">aherlick@mccor.ca</a></p>-->
-                <!--//     <br>-->
-                  
-                   
-                <!--//   <p class="directory_content"> -->
-                <!--//   <strong> Security </strong>-->
-                <!--//   <br>519 641 0976 ext. 223</p>-->
         </div>
     </div>
 </div>
