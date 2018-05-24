@@ -4,7 +4,7 @@
 <div id="main_content" style="display:none">
     <nav>
         <ul class="breadcrumb">
-            <li><a href="/home">Home</a> </li>
+            <li><a href="/home">Home</a></li>
             <li class="active">Promotions</li>
         </ul>
     </nav>
@@ -25,7 +25,9 @@
                         <div class="promo_desc_box">
                             <p class="promo_header right_column_header">{{name}}</p>
                             <p class="directory_content promo_date">
+                                {{#store_detail_btn}}
                                 <a href="/stores/{{store_detail_btn}}">{{store_name}}</a>
+                                {{/store_detail_btn}}
                                 <br>
                                 {{dates}}
                             </p>
@@ -36,7 +38,7 @@
                 </script>
             </div>  
             <section class="service_teasers" style="display:none" id="no_event_container">
-                <h2>There are no promotions at this time, please check back later.</h2>
+                <p>There are no promotions at this time, please check back later.</p>
             </section>
         </div>
         <div class="right_column">
