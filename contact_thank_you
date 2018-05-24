@@ -16,7 +16,7 @@
                 <div class="row">
                     Your message has been submitted. We will contact you shortly.
                     <br>
-                    <a href="/home" alt="home">Return to Contact Us</a>.
+                    <a href="/contact_us" alt="home">Return to Contact Us</a>.
                 </div>
             </section>
         </div>
