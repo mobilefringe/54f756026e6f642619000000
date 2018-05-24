@@ -53,90 +53,78 @@
                 <li class="active">{{name}}</li>
             </ul>
         </nav>
-    <div class="page_banner">
-        {{name}}
-    </div>
-    <div class="inside_page_content">
-        <img class="contest_image" src="{{alt_photo_url}}" />
-     <br>
-     <div class="contest_form_div">
-           <p class="contest_description">{{description}}</p>
-
-         <form id="contest_form">
-            <input id="property_id" name="contest[property_id]" style="display:none" value="{{property_id}}"/>
-            <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{id}}" />
-            <p class="large_field">
-                <label for="first_name">First Name*</label><br/>
-                <input id="first_name" type="text" name="contest[first_name]"required placeholder="First Name" />
-            </p>
-            <p class="large_field">
-                <label for="last_name">Last Name*</label><br/>
-                <input id="last_name" type="text" name="contest[last_name]" required placeholder="Last Name"/>
-            </p>
-          
-            <p class="large_field">
-                <label for="email">Email*</label><br />
-                <input id="email" name="contest[email]" type="text" required placeholder="Email"/>
-            </p>
-            <p class="large_field">
-                <label for="phone">Phone Number*</label><br />
-                <input id="phone" name="contest[phone]" type="text" required placeholder="Phone Number"/>
-            </p>
-            <p class="full_field">
-                <label for="mailing_address">Street Address</label><br />
-                <input id="mailing_address" name="contest[mailing_address]" type="text" placeholder="Street Address"/>
-            </p>
-            <p class="small_field">
-                <label for="city">City</label><br />
-                <input id="city" name="contest[city]" type="text" placeholder="City"/>
-            </p>
-            
-            <p class="small_field">
-                <label for="postal_code">Postal Code*</label><br />
-                <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code"/>
-            </p>
-            <p class="small_field">
-                <label for="birthday">Date of Birth*</label><br />
-                <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy-mm-dd"/>
-            </p>
+        <div class="page_banner">
+            <h2>{{name}}</h2>
+        </div>
+        <div class="inside_page_content">
+            <img class="contest_image" src="{{alt_photo_url}}" alt="{{name}}"/>
             <br>
-            <br>
-            
-       
-            <br>
-                <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
-                <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                <input type="text" id="enterVerify" name="enterVerify" />
-            <br>
-
-            <span>
-                <br>
-                <label for="newsletter_signup" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="newsletter_signup" name="contest[newsletter]"/>&nbsp;Yes, I would like to receive ongoing news related to events, promotions and special announcements from Westmount Shopping Centre.
-            </span>
-            <br>
-            <br>
-            <span>
-                <label for="agree_terms" style="display:none">Agree Terms</label>
-              <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/pages/westmount-rules-regulations"><u>rules and regulations</u></a>. 
-            </span>
-            <br>
-            <br>
-            <p>
-                <button class="btn btn-primary" id="form_submit">Submit</button>
-            </p>
-        </form>
-     </div>
-    </div>
+            <div class="contest_form_div">
+                <p class="contest_description">{{description}}</p>
+                <form id="contest_form">
+                    <input id="property_id" name="contest[property_id]" style="display:none" value="{{property_id}}"/>
+                    <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{id}}" />
+                    <p class="large_field">
+                        <label for="first_name">First Name*</label><br/>
+                        <input id="first_name" type="text" name="contest[first_name]"required placeholder="First Name" />
+                    </p>
+                    <p class="large_field">
+                        <label for="last_name">Last Name*</label><br/>
+                        <input id="last_name" type="text" name="contest[last_name]" required placeholder="Last Name"/>
+                    </p>
+                    <p class="large_field">
+                        <label for="email">Email*</label><br />
+                        <input id="email" name="contest[email]" type="text" required placeholder="Email"/>
+                    </p>
+                    <p class="large_field">
+                        <label for="phone">Phone Number*</label><br />
+                        <input id="phone" name="contest[phone]" type="text" required placeholder="Phone Number"/>
+                    </p>
+                    <p class="full_field">
+                        <label for="mailing_address">Street Address</label><br />
+                        <input id="mailing_address" name="contest[mailing_address]" type="text" placeholder="Street Address"/>
+                    </p>
+                    <p class="small_field">
+                        <label for="city">City</label><br />
+                        <input id="city" name="contest[city]" type="text" placeholder="City"/>
+                    </p>
+                    <p class="small_field">
+                        <label for="postal_code">Postal Code*</label><br />
+                        <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code"/>
+                    </p>
+                    <p class="small_field">
+                        <label for="birthday">Date of Birth*</label><br />
+                        <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy-mm-dd"/>
+                    </p>
+                    <br>
+                    <br>
+                    <br>
+                        <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
+                        <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
+                        <input type="text" id="enterVerify" name="enterVerify" />
+                    <br>
+                    <br>
+                    <span>
+                        <label for="newsletter_signup" style="display:none">Agree Terms</label>
+                        <input type="checkbox" class="info_check" id="newsletter_signup" name="contest[newsletter]"/>&nbsp;Yes, I would like to receive ongoing news related to events, promotions and special announcements from Westmount Shopping Centre.
+                    </span>
+                    <br>
+                    <br>
+                    <span>
+                        <label for="agree_terms" style="display:none">Agree Terms</label>
+                        <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/pages/westmount-rules-regulations"><u>rules and regulations</u></a>. 
+                    </span>
+                    <br>
+                    <br>
+                    <p>
+                        <button class="btn btn-primary" id="form_submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
     </script>
 </div>
 <script>
-    
-  
-    
-    
-    
-
     $(document).ready(function() {
         function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
@@ -161,9 +149,9 @@
                                     if (s == true){
                                         var email = $("#email").val();
                                         $('input[name="cm-ililhr-ililhr"]').attr('value',email);
-                                         $.getJSON(
+                                        $.getJSON(
                                             "//mobilefringe.createsend.com/t/d/s/ililhr/?callback=?",
-                                          $("#subForm").serialize(),
+                                            $("#subForm").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
                                                     e.preventDefault();
@@ -171,14 +159,12 @@
                                                 } else { // 200
                                                     data = $("#contest_form").serialize();
                                                     submit_contest(data);
-                                                      
                                                 }
-                                        });  
+                                            }
+                                        );  
                                     } else {
-            
                                         alert("Invaid E-mail address.")
                                     }
-                                    
                                 } else {
                                     data = $(this).serialize();
                                     submit_contest(data);
@@ -186,25 +172,18 @@
                             } else {
                                 alert("One or more required fields are blank! please fill in all fields marked with * and try again.")
                             }
-                            
-                            
                         } else {
                             alert("Please agree to the terms and conditions before submitting!")
                         }
+                    } else {
+                        alert("Please Enter Correct Verification Number");
+                        randomgen();
                     }
-                        else
-                        {
-                            alert("Please Enter Correct Verification Number");
-                            randomgen();
-                        }
-                    
-                    });
-                } else {
-                    $("#loading_screen").hide();
-                    $("#404_msg").fadeIn( "fast");
-                }
-            
-            
+                });
+            } else {
+                $("#loading_screen").hide();
+                $("#404_msg").fadeIn( "fast");
+            }
         }
         
         function submit_contest(data) {
@@ -218,7 +197,7 @@
                     window.location.href="/contest_thank_you";
                 },
                 error: function(data){
-                     // alert("There was an issue with submitting the contest entry. Please try again at a later time.")
+                    // alert("There was an issue with submitting the contest entry. Please try again at a later time.")
                     window.location.href="/contest_thank_you";
                 }
             });
@@ -233,7 +212,6 @@
             $('#verifyNumHidden').val(rannumber);
         }
     
-        
         function renderPageData(container, template, collection, type){
             var item_list = [];
             var item_rendered = [];
@@ -249,18 +227,13 @@
             $.each( collection , function( key, val ) {
                 var rendered = Mustache.render(template_html,val);
                 item_rendered.push(rendered);
-    
             });
-            
             $(container).show();
             $(container).html(item_rendered.join(''));
-        };
+        }
 
         loadMallData(renderAll);  
-        
-        
-        
-        
+    
         function verify_required_fields (){
             if ($("#first_name").val() != "" && $("#last_name").val() != "" && $("#email").val() != "" && $("#phone").val() != "" && $("#postal_code").val() != "" && $("#birthday").val() != "") {
                 return true;
@@ -279,16 +252,12 @@
         }
         
         function validateEmail($email) {
-          var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-          if( !emailReg.test( $email ) ) {
-            return false;
-          } else {
-            return true;
-          }
+            var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            if( !emailReg.test( $email ) ) {
+                return false;
+            } else {
+                return true;
+            }
         }
-
-    
-  
     });
-    
 </script>
