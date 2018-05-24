@@ -211,6 +211,9 @@
             color: #ccc !important;
             text-decoration: underline;
         }
+        .copyright {
+            background-color: rgba(0, 0, 0, 1);
+        }
         .copyright, .copyright a {
             color: #FFF;
         }
