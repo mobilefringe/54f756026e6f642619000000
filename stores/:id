@@ -220,7 +220,6 @@ background-color: #FFFFFF ;
                 } 
             });
             store_promos = promo_array;
-            console.log(store_promos)
             var jobs = getJobsForIds(store_details.jobs);
             jobs = jobs.reverse();
             jobs_array = []
